@@ -1,5 +1,7 @@
 # web-proj
 
+#一个单页面的练习程序，通过vue-router实现SPA应用
+
 > A Vue.js project
 
 ## Build Setup
