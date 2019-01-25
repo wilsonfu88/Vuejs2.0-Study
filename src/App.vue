@@ -1,5 +1,5 @@
 <template>
-  <div id="app"  class="page__bd" style="height:100%;border:solid 1px red">
+  <div id="app"  class="page__bd" style="height:99%;border:solid 1px red;overflow:hidden;">
 		<div   class="weui-tab">
 			<router-view class="weui-tab__panel" />
 			
@@ -12,6 +12,10 @@
 						 <p class="weui-tabbar__label">图书列表</p>
 						</router-link>
 					<!--<router-link to="/bookDetail">书籍详情</router-link>-->
+					<router-link to="/setting" class="weui-tabbar__item">
+						<p class="weui-tabbar__label">设置</p>
+						</router-link>
+						
 					<router-link to="/me" class="weui-tabbar__item">
 						<p class="weui-tabbar__label">我的</p>
 						</router-link>

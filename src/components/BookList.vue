@@ -1,16 +1,16 @@
 <template>
 	<transition name="fade">		
-	<div>
-		<h1>
-		图书列表
-		</h1>
-		<ul>
-			<li v-for="i in list">
-			
-			<a :href="bookUrl(i.id,i.name)">{{i.name}}</a>
-			</li>
-		</ul>
-	</div>
+		<div>
+			<h1>
+			图书列表
+			</h1>
+			<ul>
+				<li v-for="i in list">
+				
+				<a :href="bookUrl(i.id,i.name)">{{i.name}}</a>
+				</li>
+			</ul>
+		</div>
 	</transition>
 </template>
 
