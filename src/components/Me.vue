@@ -61,7 +61,8 @@
 				.then(function(rep){
 					this.list = rep.body.data.list;	
 					this.loading = false;
-					
+					//window.$data.name="wilson.fu2";
+					console.log(window.$data);
 					
 				},function(err){
 					console.error(err);

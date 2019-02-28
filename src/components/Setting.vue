@@ -10,7 +10,7 @@
 <script>
 
 
-console.log(this.$store);
+//console.log(this.$store);
 
 	export default {
 	  name: 'Setting',

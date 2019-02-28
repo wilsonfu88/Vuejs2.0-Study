@@ -1,6 +1,10 @@
 <template>
-  <div id="app"  class="page__bd" style="height:99%;border:solid 1px red;overflow:hidden;">
-		<div   class="weui-tab">
+  <div id="app"  class="page__bd" style="height:99%;overflow:hidden;">
+	  <div class="text-center">
+	  这是一个测试系统！
+	  </div>
+	  <!--style="height:99%;border:solid 1px red;overflow:hidden;" -->
+		<div  class="weui-tab">
 			<router-view class="weui-tab__panel" />
 			
 			<!--<img src="./assets/logo.png"> -->
@@ -19,6 +23,9 @@
 					<router-link to="/me" class="weui-tabbar__item">
 						<p class="weui-tabbar__label">我的</p>
 						</router-link>
+					<router-link to="/EasyuiDemo" class="weui-tabbar__item">
+							<p class="weui-tabbar__label">EasyuiDemo</p>
+					</router-link>
 				</div>
 			
 		</div>	 
@@ -40,5 +47,5 @@ export default {
 	}
 	.weui-tabbar__label{
 		height:50px;}
-
+.text-center{text-align:center;}
 </style>

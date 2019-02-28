@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import VueResource from 'vue-resource';
+
 import Index from '@/components/Index'
 import BookList from '@/components/BookList'
 import BookDetail from '@/components/BookDetail'
@@ -9,7 +9,7 @@ import Setting from '@/components/Setting'
 import EasyuiDemo from '@/components/EasyuiDemo'
 
 Vue.use(Router)
-Vue.use(VueResource)
+
 
 
 export default new Router({
@@ -39,4 +39,4 @@ export default new Router({
     name: 'EasyuiDemo',
     component: EasyuiDemo
 		}]
-		})
+ })
